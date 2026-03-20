@@ -10,25 +10,26 @@
 
 # sair = 'não'
 # while sair != 'sim':
-#     print('0 - cadastrar')
-#     print('1 - editar')
-#     print('2 - excluir')
 
-# opcao = int(input('O que deseja  realizar '))
+print('0 - cadastrar')
+print('1 - editar')
+print('2 - excluir')
 
-# match opcao:
-#     case 0:
-#         print("Você escolheu cadastrar")
-#         sair = input('Deseja sair, sim ou não? ')
-#     case 1:
-#         print("Você escolheu editar")
-#         sair = input('Deseja sair, sim ou não? ')
-#     case 2:
-#         print("Você escolheu excluir")
-#         sair = input('Deseja sair, sim ou não? ')
-#     case _:
-#         print("opção invalida!")
-#         sair = input('Deseja sair, sim ou não? ')
+opcao = int(input('O que deseja  realizar '))
+
+match opcao:
+    case 0:
+        print("Você escolheu cadastrar")
+        sair = input('Deseja sair, sim ou não? ')
+    case 1:
+        print("Você escolheu editar")
+        sair = input('Deseja sair, sim ou não? ')
+    case 2:
+        print("Você escolheu excluir")
+        sair = input('Deseja sair, sim ou não? ')
+    case _:
+        print("opção invalida!")
+        sair = input('Deseja sair, sim ou não? ')
 
 # FOR para REPERIÇÕES pre definidas de vezes. 
 
@@ -38,12 +39,12 @@
 
 # percorrendo listas 
 
-frutas = ["Uva","Maçã", "Gabriel", "kiwi"]
+# frutas = ["Uva","Maçã", "Gabriel", "kiwi"]
 
-for fruta in frutas: 
-    print(fruta)
+# for fruta in frutas: 
+#     print(fruta)
 
-nome = "Pedro"
+# nome = "Pedro"
 
-for letra in nome: 
-    print(letra)
+# for letra in nome: 
+#     print(letra)

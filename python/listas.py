@@ -81,7 +81,7 @@ print(cavaleiros)
 cavaleiros.clear()
 print(cavaleiros)
 
-print(pares)
+# print(pares)
 
-del pares
-print(pares)
+# del pares
+# print(pares)
