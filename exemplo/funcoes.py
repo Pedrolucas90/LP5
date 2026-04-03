@@ -7,7 +7,7 @@ def soma(numero1 , numero2):
     """
 
 
-soma =  numero1 + numero2
+soma =  numero1 + numero2 # type: ignore
     
 print(f'O resultado da sua soma é {soma}')
 
@@ -20,7 +20,7 @@ def sub(numero1, numero2):
 
     """
 
-sub = numero1 - numero2
+sub = numero1 - numero2 # type: ignore
 
 print(f'O resultado da sua subtração é {sub}')
 
